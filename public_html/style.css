@@ -1,38 +1,94 @@
-#header{
-    width: 950px;
-    margin: auto;
-    background-color: lightgrey;
-    border: solid gray 5px;
-    text-align: center;
+Body{
+    background-color: black;
 }
 
-nav>a{
-    color: white;
-    background-color: gray;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 0px 10px;
+#bmw{
+    float: right;
+}
+
+#honda{
+    float: bottom;
+}
+
+#toyota{
+    float: right;
+    float: bottom;
+}
+
+#menu{
+    width: 950px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+td,th{
+    border: solid 1px;
+}
+
+table{
+    width: 700px;
+    margin-top: 20px;
+    border: solid 5px;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: silver;
     display: inline-block;
 }
 
+#C-ClassImg{
+    background-image: url('images/C-Class.jpg');
+    height:159px;
+    width:318px;
+    float:right;
+    margin-right: 170px;
+    margin-top: 60px;
+}
+
+.name{
+    font-size:20px;
+    position:relative;
+    left:200px;
+    top:115px;
+}
+
 nav{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: silver;
+    text-align: center;
+}
+nav>a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 26px;
+    margin: 0px 10px;
 }
 
-#image{
-    width: 650px;
-    margin: auto;
-    
-}
-#image>img{
-    border: solid gray 2px;
-    display: inline;
-    margin-bottom: -5px;
-    margin-right: -5px;
+#E-ClassImg{
+    background-image: url('images/E-Class.jpg');
+    height:159px;
+    width:318px;
+    float:right;
+    margin-right: 170px;
+    margin-top: -510px;
 }
 
-#imageborder{
-    border-top: none;
-    border-bottom: none;
+#S-ClassImg{
+     background-image: url('images/S-Class.jpg');
+    height:159px;
+    width:318px;
+    float:right;
+    margin-right: 170px;
+    margin-top: -260px;
+}
+
+#CRVImg{
+    background-image: url('images/CRV.jpg');
+    height:210px;
+    width:250px;
+    float:right;
+    margin-right: 170px;
+    margin-top: 60px;
 }
