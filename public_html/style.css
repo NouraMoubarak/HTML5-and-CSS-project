@@ -35,22 +35,6 @@ table{
     display: inline-block;
 }
 
-#C-ClassImg{
-    background-image: url('images/C-Class.jpg');
-    height:159px;
-    width:318px;
-    float:right;
-    margin-right: 170px;
-    margin-top: 60px;
-}
-
-.name{
-    font-size:20px;
-    position:relative;
-    left:200px;
-    top:115px;
-}
-
 nav{
     margin-top: 40px;
     background-color: silver;
@@ -64,6 +48,30 @@ nav>a{
     padding: 10px;
     font-size: 26px;
     margin: 0px 10px;
+}
+
+
+
+.headers{
+    float: right;
+    display: inline-block;
+}
+
+.headers>a{
+    text-decoration: none;
+
+    color: black;
+    text-align: center;   
+    font-size: 26px;   
+}
+
+#C-ClassImg{
+    background-image: url('images/C-Class.jpg');
+    height:159px;
+    width:318px;
+    float:right;
+    margin-right: 65px;
+    margin-top: 60px;
 }
 
 #E-ClassImg{
@@ -86,9 +94,249 @@ nav>a{
 
 #CRVImg{
     background-image: url('images/CRV.jpg');
-    height:210px;
-    width:250px;
+    height:100px;
+    width:200px;
     float:right;
-    margin-right: 170px;
-    margin-top: 60px;
+    margin-right: 280px;
+    margin-top: 50px;
+}
+
+#accordImg{
+    background-image: url('images/accord.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -415px;
+}
+
+#civicImg{
+    background-image: url('images/civic.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 380px;
+    margin-top: -250px;
+}
+
+#jazzImg{
+    background-image: url('images/jazz.PNG');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -250px;
+}
+
+#x6Img{
+    background-image: url('images/x6.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 280px;
+    margin-top: 100px;
+}
+
+#x5Img{
+    background-image: url('images/x5.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -740px;
+}
+
+#z4Img{
+    background-image: url('images/z4.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 380px;
+    margin-top: -510px;
+}
+
+#SeriesAImg{
+    background-image: url('images/Series7.jpeg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -510px;
+}
+
+#SeriesBImg{
+    background-image: url('images/Series6.jpeg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 380px;
+    margin-top: -270px;
+}
+
+#SeriesCImg{
+    background-image: url('images/Series3.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -270px;
+}
+
+#HiaceImg{
+    background-image: url('images/hiace.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 280px;
+    margin-top: 50px;
+}
+
+#HiluxImg{
+    background-image: url('images/Hilux.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -580px;
+}
+
+#LandCruiserImg{
+    background-image: url('images/landcruiser.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 380px;
+    margin-top: -420px;
+}
+
+#AurisImg{
+    background-image: url('images/auris.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -420px;
+}
+
+#CorollaImg{
+    background-image: url('images/corolla.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 380px;
+    margin-top: -260px;
+}
+
+#YarisImg{
+    background-image: url('images/yaris.jpg');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 100px;
+    margin-top: -260px;
+}
+
+#AvensisImg{
+    background-image: url('images/Avensis.JPG');
+    height:100px;
+    width:200px;
+    float:right;
+    margin-right: 240px;
+    margin-top: -100px;
+}
+
+.mercedesName{
+    font-size:15px;
+    position:relative;
+    left:235px;
+    top:125px;
+}
+
+.name{
+    font-size:15px;
+    position:relative; 
+    top:-8px;
+}
+
+#models{
+    color: white;
+}
+
+#dealer{
+    background: linear-gradient(black, grey 5%);
+    width: 940px;
+   height: 800px;
+    margin: 50px auto 0px;
+    padding: 20px 5px;
+}
+
+#mercedesDealer{
+     border: solid black 5px;
+    width: 400px;
+    background-color: silver;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    
+}
+
+#bmwDealer{
+     border: solid black 5px;
+    width: 400px;
+    background-color: silver;
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    top: 70px;
+}
+
+#hondaDealer{
+    border: solid black 5px;
+    width: 400px;
+    float: right;
+    background-color: silver;
+    display: inline-block;
+    position: relative;
+    right: 40px;
+    
+}
+
+#toyotaDealer{
+     border: solid black 5px;
+    width: 400px;
+    background-color: silver;
+    float: right;
+    display: inline-block;
+    position: relative;
+    right: 40px;
+    top: 70px;
+}
+
+h3{
+    display: inline;
+}
+
+pre{
+    border: dotted black 5px;
+    border-radius: 10px;
+    background-color: silver;
+    text-align: center;
+    font-size: 40px;
+    font-family: arial, sans-serif;
+}
+
+.hint{
+    color: white;
+}
+.dealHd{
+  position: relative;
+  left: -450px;
+  border-radius: 40px;
+  font-size: 15px;
+}
+
+.dealHd:hover{
+    border: solid white 3px;
+    background-color: black;
+    color: white;
 }
