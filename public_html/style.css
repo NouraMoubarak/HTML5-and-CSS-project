@@ -23,16 +23,29 @@ Body{
 
 td,th{
     border: solid 1px;
+    background-color: silver;
+}
+
+.notEngine{
+    text-align: center;
 }
 
 table{
     width: 700px;
     margin-top: 20px;
+    padding: 60px;
     border: solid 5px;
     font-size: 20px;
     border-collapse: collapse;
-    background-color: silver;
+    
     display: inline-block;
+}
+
+caption{
+    color: grey;
+    font-weight: bold;
+    border: solid grey 2px;
+    background-color: white;
 }
 
 nav{
@@ -71,7 +84,7 @@ nav>a{
     width:318px;
     float:right;
     margin-right: 65px;
-    margin-top: 60px;
+    margin-top: 200px;
 }
 
 #E-ClassImg{
@@ -80,7 +93,7 @@ nav>a{
     width:318px;
     float:right;
     margin-right: 170px;
-    margin-top: -510px;
+    margin-top: -610px;
 }
 
 #S-ClassImg{
@@ -89,7 +102,7 @@ nav>a{
     width:318px;
     float:right;
     margin-right: 170px;
-    margin-top: -260px;
+    margin-top: -280px;
 }
 
 #CRVImg{
@@ -98,7 +111,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 280px;
-    margin-top: 50px;
+    margin-top:175px;
 }
 
 #accordImg{
@@ -134,7 +147,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 280px;
-    margin-top: 100px;
+    margin-top: 225px;
 }
 
 #x5Img{
@@ -188,7 +201,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 280px;
-    margin-top: 50px;
+    margin-top: 180px;
 }
 
 #HiluxImg{
@@ -197,7 +210,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 100px;
-    margin-top: -580px;
+    margin-top: -690px;
 }
 
 #LandCruiserImg{
@@ -206,7 +219,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 380px;
-    margin-top: -420px;
+    margin-top: -530px;
 }
 
 #AurisImg{
@@ -215,7 +228,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 100px;
-    margin-top: -420px;
+    margin-top: -530px;
 }
 
 #CorollaImg{
@@ -224,7 +237,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 380px;
-    margin-top: -260px;
+    margin-top: -370px;
 }
 
 #YarisImg{
@@ -233,7 +246,7 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 100px;
-    margin-top: -260px;
+    margin-top: -370px;
 }
 
 #AvensisImg{
@@ -242,11 +255,12 @@ nav>a{
     width:200px;
     float:right;
     margin-right: 240px;
-    margin-top: -100px;
+    margin-top: -210px;
 }
 
 .mercedesName{
     font-size:15px;
+    font-style: italic;
     position:relative;
     left:235px;
     top:125px;
@@ -254,6 +268,7 @@ nav>a{
 
 .name{
     font-size:15px;
+    font-style: italic;
     position:relative; 
     top:-8px;
 }
@@ -340,3 +355,25 @@ pre{
     background-color: black;
     color: white;
 }
+
+#Home{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    top: 120px;
+    left: -10px;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+#Home>a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: "Comic Sans ms",serif;
+    letter-spacing: 5px;
+}
+
